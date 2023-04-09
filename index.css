@@ -13,3 +13,16 @@
   font-size: 45px;
   color: red;
 }
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 5vw);
+}
+
+.dog {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
